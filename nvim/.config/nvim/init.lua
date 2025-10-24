@@ -10,6 +10,7 @@ vim.lsp.enable({
 	"luals", -- lua
 	"bashls", -- bash
 	"jdtls", -- java
+  "ts_ls", -- typescript
 })
 
 -- opts
