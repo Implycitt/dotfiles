@@ -11,9 +11,21 @@ vim.lsp.enable({
 	"bashls", -- bash
 	"jdtls", -- java
   "ts_ls", -- typescript
+  "html-lsp", -- html
 })
 
+-- binds
+
+vim.keymap.set('n', '<leader>e', ':Neotree filesystem reveal left<CR>')
+vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
+vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
+vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
+vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
+vim.keymap.set('n', '<leader>f', ':Telescope find_files<CR>')
+
 -- opts
+
+vim.g.mapleader = " "
 
 vim.opt.nu = true
 vim.opt.rnu = true
@@ -59,3 +71,4 @@ vim.opt.guicursor = {
 	"a:blinkwait700-blinkoff400-blinkon250", -- All modes: blinking settings
 	"sm:block-blinkwait175-blinkoff150-blinkon175", -- Showmatch: block cursor with specific blinking settings
 }
+

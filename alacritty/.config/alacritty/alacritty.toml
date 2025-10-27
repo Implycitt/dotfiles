@@ -8,7 +8,6 @@ hide_when_typing  = true
 [window]
 dynamic_padding = true
 padding = { x = 15, y = 15 }
-opacity = 0.98
 
 [colors.primary]
 foreground = "#e0def4"
