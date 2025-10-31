@@ -11,7 +11,10 @@ plugins=(git
   zsh-syntax-highlighting
   colored-man-pages
   fzf
+  tmux
 )
+
+ZSH_TMUX_AUTOSTART=true
 
 source $ZSH/oh-my-zsh.sh
 
