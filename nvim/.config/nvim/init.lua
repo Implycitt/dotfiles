@@ -12,6 +12,7 @@ vim.lsp.enable({
 	"jdtls", -- java
   "ts_ls", -- typescript
   "html-lsp", -- html
+  "rust-analyzer", -- rust
 })
 
 -- binds
