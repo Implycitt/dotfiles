@@ -13,6 +13,8 @@ vim.lsp.enable({
   "ts_ls", -- typescript
   "html-lsp", -- html
   "rust-analyzer", -- rust
+  "dart", -- dart/flutter
+  "csharp-lsp" -- csharp
 })
 
 -- binds
