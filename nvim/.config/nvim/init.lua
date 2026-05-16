@@ -14,7 +14,8 @@ vim.lsp.enable({
   "html-lsp", -- html
   "rust-analyzer", -- rust
   "dart", -- dart/flutter
-  "csharp-lsp" -- csharp
+  "csharp-lsp", -- csharp
+  "python", -- python
 })
 
 -- binds
